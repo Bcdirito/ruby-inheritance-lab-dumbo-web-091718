@@ -1,4 +1,5 @@
 class Student < User
+  attr_reader :knowledge
   attr_accessor :first_name, :last_name
   
   @@all = []
